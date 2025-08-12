@@ -116,3 +116,16 @@ body { background: var(--bg); color: var(--text); }
 .pub-meta { color: var(--muted); font-size: 0.95rem; margin: 0 0 0.5rem; }
 .pub-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
 .pub-links a { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.35rem 0.6rem; border: 1px solid var(--border); border-radius: 999px; background: color-mix(in srgb, var(--card) 70%, transparent); }
+
+/* Badges and chips */
+.badge { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.3rem 0.6rem; border-radius: 999px; font-size: 0.9rem; border: 1px solid var(--border); background: color-mix(in srgb, var(--card) 70%, transparent); }
+.badge.do i { }
+.badge.pdf { }
+.badge.hal { }
+.badge.publisher { }
+.journal-chip { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.25rem 0.55rem; border-radius: 999px; border: 1px solid var(--border); background: var(--bg); color: var(--muted); font-size: 0.85rem; }
+.journal-chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+/* View all row */
+.view-all { margin-top: 1.5rem; display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.view-all a { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.45rem 0.7rem; border-radius: 10px; border: 1px solid var(--border); background: color-mix(in srgb, var(--card) 70%, transparent); }
