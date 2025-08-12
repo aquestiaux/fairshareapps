@@ -106,3 +106,5 @@ body { background: var(--bg); color: var(--text); }
 .profile .subtitle { color: var(--muted); margin-top: 0.25rem; }
 .profile .prose { margin-top: 1rem; }
 .profile ul { list-style: disc; padding-left: 1.25rem; }
+
+.avatar-initials { width: 180px; height: 180px; border-radius: 16px; display: grid; place-items: center; border: 1px solid var(--border); background: color-mix(in srgb, var(--accent) 12%, var(--card)); box-shadow: var(--shadow-1); color: var(--text); font-weight: 800; font-size: 1.75rem; letter-spacing: 1px; }
