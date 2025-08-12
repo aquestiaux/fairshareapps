@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FairShare Apps Privacy Policy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FairShare Apps</title>
+  <meta name="description" content="FairShare Apps builds minimal, privacy-first utilities. Read our privacy policy and contact us here." />
+  <link rel="canonical" href="https://fairshareapps.com/" />
+  <meta property="og:title" content="FairShare Apps" />
+  <meta property="og:description" content="Minimal apps. Minimal data. Fair treatment." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fairshareapps.com/" />
+  <style>
+    body { max-width: 760px; margin: auto; padding: 2rem; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #222; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .tagline { color: #444; margin-top: 0; }
+    nav a { margin-right: 1rem; }
+    footer { margin-top: 3rem; color: #666; font-size: 0.9rem; }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>This app collects your email address solely for participation in reward draws. All email data is deleted monthly.</p>
-  <p>If you wish to request deletion of your data sooner, please contact us at <strong>contact@fairshareapps.com</strong>.</p>
+  <header>
+    <h1>FairShare Apps</h1>
+    <p class="tagline">Minimal apps. Minimal data. Fair treatment.</p>
+  </header>
+
+  <main>
+    <p>We build simple, privacy-first utilities like the FairShare Stopwatch. We collect the least data possible and are transparent about how it is used.</p>
+
+    <nav>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="mailto:contact@fairshareapps.com">Contact</a>
+    </nav>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> FairShare Apps</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
