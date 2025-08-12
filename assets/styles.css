@@ -96,3 +96,13 @@ body { background: var(--bg); color: var(--text); }
 .prose p, .prose li { color: var(--muted); }
 .prose ul { padding-left: 1rem; }
 .prose nav { margin-bottom: 1rem; }
+
+/* Profile page */
+.profile { padding: 3rem 1.5rem; }
+.profile .wrap { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: 180px 1fr; gap: 1.25rem; align-items: start; }
+@media (max-width: 720px) { .profile .wrap { grid-template-columns: 1fr; } }
+.profile .avatar { width: 180px; height: 180px; border-radius: 16px; object-fit: cover; border: 1px solid var(--border); box-shadow: var(--shadow-1); background: var(--card); }
+.profile h1 { margin: 0; font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+.profile .subtitle { color: var(--muted); margin-top: 0.25rem; }
+.profile .prose { margin-top: 1rem; }
+.profile ul { list-style: disc; padding-left: 1.25rem; }
