@@ -108,3 +108,11 @@ body { background: var(--bg); color: var(--text); }
 .profile ul { list-style: disc; padding-left: 1.25rem; }
 
 .avatar-initials { width: 180px; height: 180px; border-radius: 16px; display: grid; place-items: center; border: 1px solid var(--border); background: color-mix(in srgb, var(--accent) 12%, var(--card)); box-shadow: var(--shadow-1); color: var(--text); font-weight: 800; font-size: 1.75rem; letter-spacing: 1px; }
+
+/* Publications */
+.pubs { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1.5rem; }
+.pub-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; box-shadow: var(--shadow-1); }
+.pub-card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+.pub-meta { color: var(--muted); font-size: 0.95rem; margin: 0 0 0.5rem; }
+.pub-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.pub-links a { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.35rem 0.6rem; border: 1px solid var(--border); border-radius: 999px; background: color-mix(in srgb, var(--card) 70%, transparent); }
